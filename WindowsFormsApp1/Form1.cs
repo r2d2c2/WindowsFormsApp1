@@ -16,7 +16,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
+            MessageBox.Show("이것은 MessageBox입니다.");
             textBox1.Text = "이것은 \r\n 멀티라인 \r\n 태스트박스\r\n 입니다.!";
+
 
         }
 
